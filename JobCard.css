@@ -1,0 +1,54 @@
+#card{
+    border-left: 6px solid rgb(121, 121, 235);
+    background-color: aliceblue;
+    height:170px;
+    width:45%;
+    margin:auto;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-radius: 3px;
+}
+@media (max-width:600px) and (max-height:550px)
+{
+#card{
+    width: 70%;
+}
+}
+#left
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: large;
+    padding-left: 5px;
+}
+#right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    right:5px;
+}
+#offer{
+    border: 1px solid black;
+    padding:2px;
+}
+#card p{
+    background-color: aliceblue;
+    margin:0px;
+    position: relative;
+    left:5px;
+}
+#role{
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-size: 27.5px;
+    font-family: monospace;
+}
+#delete{
+    background-color: red;
+    color:white;
+}

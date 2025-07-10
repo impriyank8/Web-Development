@@ -1,0 +1,56 @@
+#jobform
+{
+    background-color: rgb(195, 162, 223);
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 235px;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding:4px;
+    border-radius: 3px;
+}
+#heading{
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+@media (max-width:600px) and (max-height:550px)
+{
+#jobform{
+    width: 65%;
+}
+#feature{
+    width:65%;
+}
+}
+#formm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formdesign{
+    padding:7.5px 0px 7.5px 5px;
+    font-size: 14px;
+    border:1px solid grey;
+    border-radius: 5px;
+}
+#submit
+{
+    background-color: antiquewhite;
+}
+#feature{
+    display: flex;
+    width:45%;
+    padding:4px;
+    justify-content: space-between;
+}
+#clear
+{
+    background-color: rgba(255, 0, 0, 0.806);
+    padding:3px 10px 3px 10px;
+    color:rgb(255, 255, 255);
+}
+#filterone{
+    padding:3px 3px 3px 3px;
+}
